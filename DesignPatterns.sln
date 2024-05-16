@@ -41,7 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryDesignPattern.Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositeDesignPattern", "CompositeDesignPattern", "{A40F5F4C-90CE-418B-A9D1-2E5C5F806EA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Composite", "CompositeDesignPattern\DesignPattern.Composite\DesignPattern.Composite.csproj", "{FD23AF86-E475-47EA-BFAA-CAAA183DE79F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Composite", "CompositeDesignPattern\DesignPattern.Composite\DesignPattern.Composite.csproj", "{FD23AF86-E475-47EA-BFAA-CAAA183DE79F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDesignPattern", "MediatorDesignPattern", "{FD313226-F324-4298-AC12-82DD293AF9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "MediatorDesignPattern\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{79EA4937-3802-42B6-919C-D86DBB3C9D8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,10 @@ Global
 		{FD23AF86-E475-47EA-BFAA-CAAA183DE79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD23AF86-E475-47EA-BFAA-CAAA183DE79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD23AF86-E475-47EA-BFAA-CAAA183DE79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EA4937-3802-42B6-919C-D86DBB3C9D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EA4937-3802-42B6-919C-D86DBB3C9D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EA4937-3802-42B6-919C-D86DBB3C9D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EA4937-3802-42B6-919C-D86DBB3C9D8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +127,7 @@ Global
 		{8039C988-A3C1-43F8-99F4-91991B8CFEFA} = {B7BB5FB1-4968-4532-BCAC-4434FA6F1697}
 		{8E78CD38-2BBE-4611-9A71-61966EAAB474} = {B7BB5FB1-4968-4532-BCAC-4434FA6F1697}
 		{FD23AF86-E475-47EA-BFAA-CAAA183DE79F} = {A40F5F4C-90CE-418B-A9D1-2E5C5F806EA5}
+		{79EA4937-3802-42B6-919C-D86DBB3C9D8F} = {FD313226-F324-4298-AC12-82DD293AF9B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECD0AA28-DD79-4FEB-B12D-D138F083181F}
