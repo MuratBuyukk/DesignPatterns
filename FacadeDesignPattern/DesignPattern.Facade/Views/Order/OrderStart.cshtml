@@ -1,0 +1,17 @@
+﻿@model DesignPattern.Facade.DAL.Order
+@{
+    ViewData["Title"] = "OrderStart";
+    Layout = "~/Views/Shared/_FacadeLayout.cshtml";
+}
+
+
+<h1>Order Detail</h1>
+<form method="post">
+    <br />
+    <br />
+    <label>Customer ID</label>
+    <input type="text" asp-for="CustomerID" class="form-control" />
+    <br />
+    <button class="btn btn-warning">Save Order</button>
+</form>
+
